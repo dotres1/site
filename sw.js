@@ -1,7 +1,7 @@
 // Caches
 var CURRENT_CACHES = {
     font: 'font-cache-v1',
-    css:'css-cache-v1',
+    css:'style.css','style1.css',
     js:'js-cache-v1',
     site: 'site-cache-v1',
     image: 'image-cache-v1'

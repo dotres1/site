@@ -1,0 +1,15 @@
+{
+    "name": "my_pizza",
+    "description": "praktika",
+    "start_url": "/pizza.html",
+    "lang": "ru",
+    "display": "standalone",
+    "icons": [
+        {
+            "src":"icon.png",
+            "sizes": "128x128"
+        }
+    ]
+
+
+  }

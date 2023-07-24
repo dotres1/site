@@ -1,0 +1,174 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /*padding: 0 20px;*/
+  }
+  
+  /* Header */
+  .header {
+    background-image: url('pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-top h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-right: auto;
+    color: #000000;
+    line-height: 0%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: aquamarine;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header-bottom {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .header-bottom h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 0%;
+  }
+  
+  /* Menu */
+  .menu {
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:60px 0;
+  }
+  
+  .menu h3 {
+    font-size: 30px;
+    line-height: 2;
+    font-weight: bold;
+    text-align: center;
+    color: #e0e0e0;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10%;
+  }
+  
+  .menu-item h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    margin-bottom: 10px;
+    color: #e0e0e0;
+  }
+  
+  .menu-item span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  
+  /* About */
+  .about {
+    background-image: url('fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+  }
+  
+  .about h3 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about p {
+    font-size: 25px;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact */
+  .contact {
+    background-color: #e7d9da;
+    padding: 60px 0;
+  }
+  
+  .contact h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+ 
+  .contact p{
+    font-size: 25px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #acacac;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 20px;
+  }

@@ -1,7 +1,7 @@
 {
     "name": "my_pizza",
     "description": "praktika",
-    "start_url": "/pizza.html",
+    "start_url": "/index.html",
     "lang": "ru",
     "display": "standalone",
     "icons": [

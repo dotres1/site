@@ -1,9 +1,8 @@
 // Caches
 var CURRENT_CACHES = {
-    font: 'font-cache-v1',
     css:'style.css','style1.css',
     js:'script.js',
-    site: 'site-cache-v1',
+    site: 'index.html','todo.html',
     image: 'pizza.jpg','pizza1.jpg','pizza2.jpg','pizza3.jpg','pizza4.jpg','pizza5.jpg','pizza6.jpg','pizza7.jpg','pizza8.jpg','pizza9.jpg','back.jpg','fon.jpg','icon.png'
 };
 
